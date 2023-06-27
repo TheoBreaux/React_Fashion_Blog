@@ -1,3 +1,3 @@
 # [Netlify Live Link](Netlify link here)
-# [GitHub Pages Live Link](GitHub Pages link of HTML version)
-# [GitHub Link of HTML Version](GitHub link for HTML version)
+# [https://theobreaux.github.io/Fashion_Blog/](GitHub Pages link of HTML version)
+# [https://github.com/TheoBreaux/Fashion_Blog](GitHub link for HTML version)

@@ -1,0 +1,14 @@
+.blog-title {
+  font-size: 20px;
+}
+
+.blog-text::first-letter {
+  color: lightgray;
+  font-size: 40px;
+}
+
+.continue {
+  color: tomato;
+  font-weight: bold;
+  text-align: right;
+}

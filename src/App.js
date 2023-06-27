@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import Article from "./components/Article";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
+import Woman from "./images/woman.jpg";
+import Trio from "./images/trio.jpg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Main>
+        <Article
+          date="11/12/20"
+          title="On the Street in Brooklyn"
+          image={Woman}
+        />
+        <Article date="11/11/20" title="Vintage in Vogue" image={Trio} />
+      </Main>
+      <Footer />
     </div>
   );
 }

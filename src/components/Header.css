@@ -1,0 +1,22 @@
+h1 {
+  color: tomato;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-nav a {
+  color: lightgray;
+}
